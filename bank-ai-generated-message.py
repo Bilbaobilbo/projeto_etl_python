@@ -3,7 +3,7 @@ import requests
 import json 
 import openai
 
-openai_api_key = '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'
+openai_api_key = 'api-key'
 
 df = pd.read_csv('SDW2023.csv')
 user_ids = df['UserID'].tolist()
